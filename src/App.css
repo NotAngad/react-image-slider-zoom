@@ -1,0 +1,30 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.app {
+  font-family: "Londrina Solid", cursive;
+  letter-spacing: 2px;
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.magnify-Image {
+  width: 600px;
+  height: 600px;
+}
+
+.image-gallery-image {
+  display: none !important;
+}
+
+.image-to-magnify {
+  -webkit-box-shadow: 3px 2px 23px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 2px 23px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 2px 23px 8px rgba(0, 0, 0, 0.75);
+}
