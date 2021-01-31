@@ -1,3 +1,4 @@
+﻿# React Image Slider along with Image Zoom Functionality
 This is a repo to demonstrate how tom implement a react image slider along with image zoom capability
 
 ** Packages used: ** 
